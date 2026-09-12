@@ -1,5 +1,5 @@
 /**
- * The Sovereign Books signet mark -- concentric rings around a geometric S,
+ * The Solo Books signet mark -- concentric rings around a geometric S,
  * like a wax seal or signet ring. Authored SVG (not a raster asset), so it
  * stays crisp at any size and matches the landing page's "no photographed
  * material" design rule. Shared between the landing page (fixed dark

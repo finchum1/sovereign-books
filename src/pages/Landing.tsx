@@ -74,7 +74,7 @@ function Wordmark() {
     <div className="flex items-center gap-2">
       <BrandMark color={panel.gold} size={26} />
       <span className="font-semibold tracking-tight text-[15px]" style={{ color: panel.ink }}>
-        Sovereign Books
+        Solo Books
       </span>
     </div>
   )
@@ -294,7 +294,7 @@ export function Landing() {
           <BrowserFrame>
             <img
               src="/landing/screenshot-ledger.png"
-              alt="The Sovereign Books ledger, showing recent transactions across several businesses"
+              alt="The Solo Books ledger, showing recent transactions across several businesses"
               className="w-full h-auto block"
             />
           </BrowserFrame>
@@ -402,7 +402,7 @@ export function Landing() {
           <div className="grid sm:grid-cols-2 gap-6">
             <ScreenshotWindow
               src="/landing/screenshot-ledger.png"
-              alt="Adding a transaction in Sovereign Books, with the receipt drop zone visible"
+              alt="Adding a transaction in Solo Books, with the receipt drop zone visible"
               label="Ledger — add transaction"
             />
             <ScreenshotWindow
@@ -439,7 +439,7 @@ export function Landing() {
           </h2>
           <p className="text-base leading-relaxed" style={{ color: panel.inkDim }}>
             Most accounting software assumes one company at a time — separate logins, separate setups,
-            separate exports to reconcile by hand. Sovereign Books treats "which business" as just a
+            separate exports to reconcile by hand. Solo Books treats "which business" as just a
             field on the transaction. Sit down once a week, log what happened, and pull whatever report
             you need — one click for everything combined, one click for just one, whether that's the
             only business you run or the fifth you've added.
@@ -460,7 +460,7 @@ export function Landing() {
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <Wordmark />
           <p className="text-xs" style={{ color: panel.inkDim }}>
-            © {new Date().getFullYear()} Sovereign Books
+            © {new Date().getFullYear()} Solo Books
           </p>
         </div>
       </footer>

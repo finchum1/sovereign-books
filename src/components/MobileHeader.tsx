@@ -16,7 +16,7 @@ export function MobileHeader() {
     >
       <div className="flex items-center gap-2 min-w-0">
         <BrandMark color="var(--color-amber-400)" size={20} />
-        <span className="font-semibold text-slate-900 dark:text-slate-100 truncate">Sovereign Books</span>
+        <span className="font-semibold text-slate-900 dark:text-slate-100 truncate">Solo Books</span>
       </div>
       <div className="flex items-center gap-1 shrink-0">
         <ThemeToggle />

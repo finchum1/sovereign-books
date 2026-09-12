@@ -88,7 +88,7 @@ export function ClientReportPDF({
       <Page size="LETTER" style={styles.page}>
         <View style={styles.header}>
           <View style={styles.headerText}>
-            <Text style={styles.brand}>Sovereign Books</Text>
+            <Text style={styles.brand}>Solo Books</Text>
             <Text style={styles.title}>Client Report</Text>
             <Text style={styles.subtitle}>{scopeLabel}</Text>
             <Text style={styles.subtitle}>{periodLabel}</Text>
@@ -133,7 +133,7 @@ export function ClientReportPDF({
         </View>
 
         <Text style={styles.footer} fixed>
-          Generated {new Date().toLocaleString()} · Sovereign Books
+          Generated {new Date().toLocaleString()} · Solo Books
         </Text>
       </Page>
     </Document>

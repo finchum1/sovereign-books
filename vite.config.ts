@@ -12,8 +12,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'apple-touch-icon.png'],
       manifest: {
-        name: 'Sovereign Books',
-        short_name: 'Sovereign Books',
+        name: 'Solo Books',
+        short_name: 'Solo Books',
         description: 'One ledger for every business you run.',
         theme_color: '#0a0b0d',
         background_color: '#0a0b0d',
